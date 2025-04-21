@@ -37,3 +37,11 @@ max_attempts = 5
 #start_game()
 
 # Functionality for displaying results
+# "Hello World" program
+def hello_world():
+    print("\nHello, World!")
+
+# Main function to call other functions
+if __name__ == "__main__":
+    display_details()
+    hello_world()
